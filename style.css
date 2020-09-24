@@ -41,11 +41,10 @@
 body {
 	margin: auto;
 	width: 750px;
-	color: #E30613;
-	background-color: #F6B5B0;
+	color: #1a1a1f;
+	background-color: #EEE;
 	font-family: the-sans;
 	text-align: center;
-	background-image:url("data/websitebk.png");
 }
 hr {
 	color: #E30613;
@@ -122,13 +121,11 @@ input[type=range]::-webkit-slider-runnable-track {
   height: 10px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 1px 1px 1px #000000;
-  background: #C1DFC4;
+  background: #FFFFFF;
   border-radius: 5px;
   border: 1px solid #000000;
 }
 input[type=range]::-webkit-slider-thumb {
-  box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
   height: 20px;
   width: 20px;
@@ -139,20 +136,18 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -6px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #C1DFC4;
+  background: #FFFFFF;
 }
 input[type=range]::-moz-range-track {
   width: 100%;
   height: 10px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 1px 1px 1px #000000;
-  background: #C1DFC4;
+  background: #FFFFFF;
   border-radius: 5px;
   border: 1px solid #000000;
 }
 input[type=range]::-moz-range-thumb {
-  box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
   height: 20px;
   width: 20px;
@@ -170,20 +165,17 @@ input[type=range]::-ms-track {
   color: transparent;
 }
 input[type=range]::-ms-fill-lower {
-  background: #C1DFC4;
+  background: #FFFFFF;
   border: 1px solid #000000;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px #000000;
 }
 input[type=range]::-ms-fill-upper {
   background: #C1DFC4;
   border: 1px solid #000000;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px #000000;
 }
 input[type=range]::-ms-thumb {
   margin-top: 1px;
-  box-shadow: 1px 1px 1px #000000;
   border: 1px solid #000000;
   height: 20px;
   width: 20px;
@@ -192,19 +184,23 @@ input[type=range]::-ms-thumb {
   cursor: pointer;
 }
 input[type=range]:focus::-ms-fill-lower {
-  background: #C1DFC4;
+  background: #FFFFFF;
 }
 input[type=range]:focus::-ms-fill-upper {
-  background: #C1DFC4;
+  background: #FFFFFF;
 }
 
 input[type=file] {
 	width: 300px;
+    margin-top: 1rem;
 }
 input[class=upload]{
-	background-color: #C1DFC4;
-	color: #951B81;
+	background-color: #E30613;
+	color: #FFFFFF;
 	width: 300px;
+    border: 0;
+    padding: 10px;
+    margin-top: 1rem;
 }
 img[id="prev"]{
 	border-style: solid;
@@ -219,7 +215,7 @@ img[id="ico"]{
 }
 img[class="bkprev"]{
 	vertical-align: middle;
-		margin-bottom: 3px;
+	margin-bottom: 1rem;
 }
 
 div.links {
@@ -240,7 +236,7 @@ div.legal {
 }
 div.head {
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom: 10px
 	font-family: the-sansb;
 	font-size: 120%;
 }
